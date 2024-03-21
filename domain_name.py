@@ -13,5 +13,9 @@ def process_domain_name(filename):
     return list
 
 if __name__ == "__main__":
-    print(process_domain_name("WiresharkCapture/imgToDrive.pcapng"))
-    print(process_domain_name("WiresharkCapture/imgToDrive2.pcapng"))
+    print("imgToDrive.pcapng")
+    for pkt in process_domain_name("WiresharkCapture/imgToDrive.pcapng"):
+        print(pkt)
+    print("imgToDrive2.pcapng")
+    for pkt in process_domain_name("WiresharkCapture/imgToDrive2.pcapng"):
+        print(pkt)
