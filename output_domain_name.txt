@@ -141,7 +141,15 @@ multipleFilesToDrive3.pcapng
 
 Unique domain names:
 
-{'login.live.com', 'gateway.icloud.com', 'cvws.icloud-content.com', 'p72-ckdatabase.icloud.com',
-'3dbe324d-bd6a-4005-a3fd-a87445cbdaba.apple.com.v.aaplimg.com', 'p29-docws.icloud.com',
-'p72-content.icloud.com', 'setup.fe2.apple-dns.net', 'edge.icloud-content.com',
-'cws.icloud-content.com', 'settings-win.data.microsoft.com', 'p29-setup.icloud.com'}
+{'login.live.com',
+'gateway.icloud.com', => ns-1396.awsdns-46.org
+'cvws.icloud-content.com', => ns-1651.awsdns-14.co.uk
+'p72-ckdatabase.icloud.com', => ns-1396.awsdns-46.org
+'3dbe324d-bd6a-4005-a3fd-a87445cbdaba.apple.com.v.aaplimg.com', => a.gslb.aaplimg.com
+'p29-docws.icloud.com', => ns-1396.awsdns-46.org
+'p72-content.icloud.com', => ns-1396.awsdns-46.org
+'setup.fe2.apple-dns.net', => ns-1396.awsdns-46.org
+'edge.icloud-content.com', => ns-1470.awsdns-55.org
+'cws.icloud-content.com', => a.gslb.aaplimg.com
+'settings-win.data.microsoft.com',
+'p29-setup.icloud.com'} => ns-1396.awsdns-46.org
