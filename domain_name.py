@@ -41,11 +41,11 @@ if __name__ == "__main__":
     for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/imgToDrive5.pcapng"):
         print(pkt)
     
-    print("\nLinux_Wifi_pdfToDrive.pcapng\n")
+    print("\nLinux_WifiUCL_pdfToDrive.pcapng\n")
     for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_WifiUCL_pdfToDrive.pcapng"):
         print(pkt)
     
-    print("\nLinux_Wifi_pdfToDrive2.pcapng\n")
+    print("\nLinux_WifiUCL_pdfToDrive2.pcapng\n")
     for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_WifiUCL_pdfToDrive2.pcapng"):
         print(pkt)
     
