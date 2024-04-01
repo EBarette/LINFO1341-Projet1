@@ -42,11 +42,11 @@ if __name__ == "__main__":
         print(pkt)
     
     print("\nLinux_Wifi_pdfToDrive.pcapng\n")
-    for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_Wifi_pdfToDrive.pcapng"):
+    for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_WifiUCL_pdfToDrive.pcapng"):
         print(pkt)
     
     print("\nLinux_Wifi_pdfToDrive2.pcapng\n")
-    for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_Wifi_pdfToDrive2.pcapng"):
+    for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_WifiUCL_pdfToDrive2.pcapng"):
         print(pkt)
     
     print("\nLinux_Wifi_pdfToDrive3.pcapng\n")
@@ -65,6 +65,14 @@ if __name__ == "__main__":
     for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/multipleFilesToDrive3.pcapng"):
         print(pkt)
 
+    print("\nLinux_4G_ImageToDrive.pcapng\n")
+    for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_4G_ImageToDrive.pcapng"):
+        print(pkt)
+
+    print("\nLinux_4G_PdfToDrive.pcapng\n")
+    for pkt in process_domain_name("WiresharkCapture/AjoutDeFichiers/Linux_4G_PdfToDrive.pcapng"):
+        print(pkt)
+        
     print("\nUnique domain names:")
     print(uniqueDomainNames)
     uniqueDomainNames.clear()
@@ -83,6 +91,10 @@ if __name__ == "__main__":
     # for pkt in process_domain_name("WiresharkCapture/CasParticuliers/modifyFromPhone.pcapng"):
     #     print(pkt)
 
+    # print("\nLinux_4G_PdfTo&OffDrive.pcapng\n")
+    # for pkt in process_domain_name("WiresharkCapture/CasParticuliers/Linux_4G_PdfTo&OffDrive.pcapng"):
+    #     print(pkt)
+
     # print("\nUnique domain names:")
     # print(uniqueDomainNames)
     # uniqueDomainNames.clear()
@@ -97,8 +109,20 @@ if __name__ == "__main__":
     # for pkt in process_domain_name("WiresharkCapture/DeleteDeFichiers/deleteMultipleFiles2.pcapng"):
     #     print(pkt)
     
-    # print("\ndeleteMultipleFiles3.pcapng\n")
-    # for pkt in process_domain_name("WiresharkCapture/DeleteDeFichiers/deleteMultipleFiles3.pcapng"):
+    # print("\nPhone_4G_ImageOffDrive.pcapng\n")
+    # for pkt in process_domain_name("WiresharkCapture/DeleteDeFichiers/Phone_4G_ImageOffDrive.pcapng"):
+    #     print(pkt)
+
+    # print("\nLinux_Wifi_pdfOffDrive1.pcapng\n")
+    # for pkt in process_domain_name("WiresharkCapture/DeleteDeFichiers/Linux_Wifi_pdfOffDrive1.pcapng"):
+    #     print(pkt)
+
+    # print("\nLinux_4G_pdfOffDrive.pcapng\n")
+    # for pkt in process_domain_name("WiresharkCapture/DeleteDeFichiers/Linux_4G_pdfOffDrive.pcapng"):
+    #     print(pkt)
+
+    # print("\nLinux_4G_ImageOffDrive.pcapng\n")
+    # for pkt in process_domain_name("WiresharkCapture/DeleteDeFichiers/Linux_4G_ImageOffDrive.pcapng"):
     #     print(pkt)
 
     # print("\nUnique domain names:")
