@@ -29,7 +29,7 @@ def pretty_print(filename, output):
 if __name__ == "__main__":
     outputFile = open('output_dns.csv', 'w', newline='')
     output = csv.writer(outputFile)
-    output.writerow(["Domain Name", "Query Type", "Count Add RR", "Delta Time", "Packet Number"])
+    output.writerow(["Domain Name", "Query Type", "Add Records", "Delta Time", "Packet Number"])
     # AJOUT DE FICHIER PCAPNG
     
     pretty_print("AjoutDeFichiers/imgToDrive.pcapng", output)
